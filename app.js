@@ -1,5 +1,5 @@
 var app =  require('./config/server')
 
-app.listen(8040, function(){
+app.listen(3000, function(){
     console.log('Server ON');
 });
