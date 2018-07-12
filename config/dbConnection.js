@@ -11,6 +11,5 @@ var connMySQL = function(){
 }
 
 module.exports = function () {
-    console.log('funcionou db autoload');
     return connMySQL;
 }
